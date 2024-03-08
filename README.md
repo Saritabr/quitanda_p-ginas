@@ -1,1 +1,0 @@
-# quitanda_p-ginas
