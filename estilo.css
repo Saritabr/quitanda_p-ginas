@@ -1,0 +1,182 @@
+/* DOCUMENTO CSS */
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: 2px red solid; */
+}
+
+body {
+    font-family: 'Codec Pro', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#parte1 {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.esquerdo {
+    width: 60%;
+    padding: 10px;
+    background-color: #fff;
+    color: #48302A;
+}
+
+.direito {
+    width: 35%; /* Adicionamos um tamanho para o elemento direito */
+}
+#img1{
+	padding-left: 180px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+
+/* Estilize a imagem para garantir que não ultrapasse o limite da sua div */
+.direito img {
+    max-width: 100%;
+    height: auto;
+}
+
+#parte2 {
+    display: flex;
+    justify-content: center;
+}
+.esquerdo2 {
+    width: 60%;
+    padding: 10px;
+}
+
+.direito2 {
+    width: 50%; /* Adicionamos um tamanho para o elemento direito */
+}
+
+#parte3 {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.esquerdo3 {
+    width: 60%;
+    padding: 10px;
+    background-color: #fff;
+    color: #48302A;
+}
+
+.direito3 {
+    width: 35%; /* Adicionamos um tamanho para o elemento direito */
+}
+#img2{
+	padding-left: 180px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+
+/* Estilize a imagem para garantir que não ultrapasse o limite da sua div */
+.direito3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para alinhar as imagens do carrossel 1 e carrossel 2 no centro */
+.carrossel-img1, .carrossel-img2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Isso centralizará horizontalmente as imagens */
+}
+.wrapper{
+    min-height: 100vh;
+}
+main{
+    min-height: 1320px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #48302A !important;
+    color:#fff !important;
+    border-color: red !important;
+}
+.accordion-button:focus{
+    box-shadow: 3px 3px 6px #795148 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left h3 {
+    font-size: 1.2em;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left li {
+    margin: 5px 0;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right p {
+    font-size: 1.2em;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
